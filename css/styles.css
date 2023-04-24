@@ -93,8 +93,6 @@ img {
   }
 }
 
-
-
 /* section Sale */
 
 .sale.section {
@@ -126,7 +124,7 @@ img {
   line-height: 1.25;
   letter-spacing: -0.02em;
 
-  color: var(--bg-slider-titles-and-mobile-menu)
+  color: var(--bg-slider-titles-and-mobile-menu);
 }
 
 /* tablet screen */
@@ -160,6 +158,8 @@ img {
 }
 
 .sale-gelery {
+  max-height: 350px;
+
   display: flex;
   gap: 20px;
 }
@@ -174,6 +174,7 @@ img {
 @media screen and (min-width: 768px) {
   .sale-gelery {
     max-width: 572px;
+    max-height: 614px;
   }
 }
 
@@ -192,26 +193,10 @@ img {
     max-height: 146px;
   }
 }
-/* .sale-item .item {
-  background-image: url(../img/sale/img1_80.jpg);
-
-  background-color: #141414;
-} */
 
 .sale-item:not(:last-child) {
   margin-bottom: 10px;
 }
-
-/* .sale-img {
-  max-height: 80px;
-}
-
-/* tablet screen */
-/* @media screen and (min-width: 768px) {
-  .sale-img {
-    max-height: 146px;
-  }
-} */ */
 
 .sale-wrapper {
   max-width: 235px;
@@ -232,7 +217,7 @@ img {
   line-height: 1;
   letter-spacing: -0.02em;
 
-  color: var(--bg-section-hero-and-header)
+  color: var(--bg-section-hero-and-header);
 }
 
 /* tablet screen */
@@ -266,7 +251,7 @@ img {
   line-height: 1.33;
   letter-spacing: -0.02em;
 
-  color: var(--bg-section-hero-and-header)
+  color: var(--bg-section-hero-and-header);
 }
 
 .sale-price {
@@ -295,7 +280,7 @@ img {
   letter-spacing: -0.02em;
   text-transform: uppercase;
 
-  color: var(--bg-section-hero-and-header)
+  color: var(--bg-section-hero-and-header);
 }
 
 .sale-description::before {
